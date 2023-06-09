@@ -154,7 +154,7 @@ function AudioConvert() {
                   variant="primary"
                   onClick={handleUpload}
                   style={{ marginTop: "10px" }}
-                  className="custom-button rounded-pill"
+                  className="custom-button"
                 >
                   {loading ? (
                     <>
@@ -188,7 +188,6 @@ function AudioConvert() {
                 </Form.Group>
                 <Button
                   variant="primary"
-                  className="rounded-pill"
                   onClick={handleConvert}
                   disabled={!selectedFile || !format}
                   style={{ marginTop: "10px", fontWeight:"bold" }}
@@ -221,7 +220,6 @@ function AudioConvert() {
                   {/* <p>Konversi File: {convertedFile}</p> */}
                   <Button
                     variant="primary"
-                    className="rounded-pill"
                     onClick={() => handleDownload(convertedFile)}
                   >
                     Download Audio

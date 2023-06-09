@@ -8,7 +8,7 @@ function Header() {
   const renderBackButton = () => {
     if (location.pathname !== "/") {
       return (
-        <Button as={Link} to="/" variant="light" className="mr-auto rounded-pill">
+        <Button as={Link} to="/" variant="light" className="mr-auto">
           Back
         </Button>
       );
@@ -17,9 +17,9 @@ function Header() {
   };
 
   return (
-    <Navbar className="justify-content fw-bold" bg="dark" variant="dark">
+    <Navbar className="justify-content-center" bg="dark" variant="dark">
       {renderBackButton()}
-      <Navbar.Brand href="/">CONVERTZ</Navbar.Brand>
+      <Navbar.Brand href="/">Ayunitsr</Navbar.Brand>
     </Navbar>
   );
 }

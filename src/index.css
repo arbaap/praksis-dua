@@ -4,12 +4,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-color: whitesmoke;
-}
-
 .custom-button {
+  background-color: green;
   font-weight: bold;
   color: white;
-  border: 2px solid white;
+  border: none;
 }
