@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46481b9d.css",
+    "main.js": "/static/js/main.6dec1f75.js",
+    "static/media/backgroundtiga.jpg": "/static/media/backgroundtiga.a93d28a18382398b07e7.jpg",
+    "static/media/backgroundsatu.jpg": "/static/media/backgroundsatu.5f932a4092e466438779.jpg",
+    "static/media/backgrounddua.jpg": "/static/media/backgrounddua.04c525e551e6c1453558.jpg",
+    "index.html": "/index.html",
+    "main.46481b9d.css.map": "/static/css/main.46481b9d.css.map",
+    "main.6dec1f75.js.map": "/static/js/main.6dec1f75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46481b9d.css",
+    "static/js/main.6dec1f75.js"
+  ]
+}
